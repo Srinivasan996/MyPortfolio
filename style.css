@@ -1,0 +1,83 @@
+/* Add your custom styles here */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    padding: 20px 0;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    margin: 0 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+}
+
+section {
+    padding: 40px 0;
+}
+
+.hero {
+    text-align: center;
+    color: #fff;
+}
+
+.about-content {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.contact-links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.contact-links p {
+    margin: 5px 0;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.social-links a {
+    color: #333;
+    margin: 0 10px;
+    font-size: 24px;
+}
+
+.experience-content, .projects-content, .skills-content, .awards-content, .contact-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.experience-item, .project-item, .awards-content ul, .skills-content ul {
+    margin-bottom: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
