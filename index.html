@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Srinivasan Govindasamy | Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <!-- Add Tailwind CSS link -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet" />
+    <!-- Add any additional CSS or fonts if needed -->
+</head>
+
+<body class="bg-gray-100">
+    <!-- Header Section -->
+    <header class="bg-green-700 text-white py-4">
+        <div class="container mx-auto px-4">
+            <nav class="flex justify-between items-center">
+                <a href="#" class="text-xl font-bold">Srinivasan Govindasamy</a>
+                <button class="md:hidden rounded-lg focus:outline-none focus:ring focus:ring-green-300 p-2"
+                    onclick="toggleMenu()">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16m-7 6h7">
+                        </path>
+                    </svg>
+                </button>
+                <ul class="hidden md:flex space-x-6">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#awards">Awards</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="md:hidden" id="mobileMenu" style="display: none;">
+                <ul class="mt-4 space-y-4">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#awards">Awards</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    
+
+    <!-- Home Section -->
+    <section id="home" class="py-16 bg-gradient-to-r from-blue-600 to-green-400 text-white">
+        <div class="container mx-auto px-4 text-center">
+            <h1 class="text-4xl font-bold">Srinivasan Govindasamy</h1>
+            <p class="text-xl">
+                Senior Software Engineer at Zuci Systems, Chennai, Tamil Nadu
+            </p>
+        </div>
+    </section>
+    <!-- About Section -->
+    <section id="about" class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="grid md:grid-cols-2 gap-8 items-center">
+                <div class="md:order-1">
+                    <h2 class="text-3xl font-bold mb-4">About Me</h2>
+                    <p class="text-lg text-gray-700">
+                        I am an experienced Senior Software Engineer at Zuci Systems with
+                        a strong background in ServiceNow development and PHP with Laravel
+                        and CodeIgniter frameworks. I have a passion for leveraging
+                        technology to streamline processes, enhance customer experiences,
+                        and drive organizational efficiency.
+                    </p>
+                    <div class="contact-links mt-6">
+                        <p class="text-lg text-gray-700">Phone: +91 9626982579, 8838653313</p>
+                        <p class="text-lg text-gray-700">Email: srinisaran20@gmail.com, srinivasanservicenow@gmail.com,
+                            srinivasanlearning@gmail.com</p>
+                        <!-- Add more contact details here -->
+                    </div>
+                    <div class="social-links mt-6">
+                        <a href="https://www.linkedin.com/in/srinivasan-govindasamy-0539bb206/" target="_blank"
+                            class="bg-blue-600 hover:bg-blue-800 text-white font-bold py-2 px-4 rounded-full mr-4">LinkedIn</a>
+                        <a href="https://github.com/Srinivasan996" target="_blank"
+                            class="bg-blue-600 hover:bg-blue-800 text-white font-bold py-2 px-4 rounded-full mr-4">GitHub</a>
+                        <a href="https://wa.me/9696982579" target="_blank"
+                            class="bg-green-600 hover:bg-green-800 text-white font-bold py-2 px-4 rounded-full">WhatsApp</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="py-16 bg-gray-100">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold mb-8">Experience</h2>
+            <div class="grid md:grid-cols-2 gap-8">
+                <!-- Experience card - Zuci Systems -->
+                <div
+                    class="bg-white rounded-lg p-6 shadow-lg transition-transform duration-300 transform hover:scale-105">
+                    <h3 class="text-xl font-bold mb-4">
+                        ServiceNow Developer - Zuci Systems
+                    </h3>
+                    <p class="text-gray-700 mb-2">Jan 2020 - Present · 3 yrs 7 mos</p>
+                    <p class="text-gray-700 mb-4">Chennai, Tamil Nadu, India</p>
+                    <ul class="text-gray-700 list-disc pl-6 mb-4">
+                        <li>
+                            Skills: HRSD, CSM, Service Catalog, IT Service Catalog,
+                            Performance Analytics, ServiceNow Workflow, Flow Designer,
+                            Service Portal Development, AngularJS, CMDB, ServiceNow,
+                            Document Object Model (DOM), Server Side, HTML, Cascading Style
+                            Sheets (CSS), JavaScript, AJAX, JSON, IT Service Management,
+                            ITOM, Service Portal
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Experience card - PHP Developer -->
+                <div
+                    class="bg-white rounded-lg p-6 shadow-lg transition-transform duration-300 transform hover:scale-105">
+                    <h3 class="text-xl font-bold mb-4">PHP Developer - Zuci Systems</h3>
+                    <p class="text-gray-700 mb-2">May 2021 - Present · 2 yrs 3 mos</p>
+                    <p class="text-gray-700 mb-4">Chennai, Tamil Nadu, India</p>
+                    <ul class="text-gray-700 list-disc pl-6 mb-4">
+                        <li>
+                            Skills: CodeIgniter Framework, Laravel Framework, Microsoft SQL
+                            Server, Document Object Model (DOM), HTML, Cascading Style
+                            Sheets (CSS), JavaScript, AJAX, JSON, React Js, JQuery
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Experience card - SAP Operator -->
+                <div
+                    class="bg-white rounded-lg p-6 shadow-lg transition-transform duration-300 transform hover:scale-105">
+                    <h3 class="text-xl font-bold mb-4">
+                        SAP Operator - Hatsun Agro Product Ltd
+                    </h3>
+                    <p class="text-gray-700 mb-2">Aug 2018 - Aug 2019 · 1 yr 1 mo</p>
+                    <p class="text-gray-700 mb-4">Dharmapuri, Tamil Nadu, India</p>
+                </div>
+
+                <!-- Experience card - Sales Officer -->
+                <div
+                    class="bg-white rounded-lg p-6 shadow-lg transition-transform duration-300 transform hover:scale-105">
+                    <h3 class="text-xl font-bold mb-4">Sales Officer - ICICI Bank</h3>
+                    <p class="text-gray-700 mb-2">Aug 2017 - Jul 2018 · 1 yr</p>
+                    <p class="text-gray-700 mb-4">Chennai, Tamil Nadu, India</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold mb-8">Projects</h2>
+            <div class="grid md:grid-cols-2 gap-8">
+                <!-- Project items go here -->
+                <div class="bg-gradient-to-b from-green-400 to-blue-500 rounded-lg p-6 shadow-lg">
+                    <h3 class="text-xl font-bold mb-4">
+                        LorisGifts - Backend Applications
+                    </h3>
+                    <p class="text-lg text-white mb-4">
+                        LorisGifts is a US-based online retailer of gifts and home decor.
+                        The company sells a wide variety of products, including gifts for
+                        all occasions, home decor, and seasonal items. The website
+                        receives over 1 million visitors per month.
+                    </p>
+                    <ul class="text-white">
+                        <li>
+                            A sales reporting application that provides insights into sales
+                            trends and customer behavior.
+                        </li>
+                        <li>
+                            An IT help desk application that allows customers to submit
+                            support tickets and track the status of their requests.
+                        </li>
+                        <li>
+                            An inventory management system that tracks the inventory levels
+                            of all products in the company's catalog.
+                        </li>
+                        <li>
+                            A rental system that allows customers to rent products from the
+                            company.
+                        </li>
+                        <li>
+                            A rewards application that tracks customer purchases and rewards
+                            them with points that can be redeemed for discounts or other
+                            benefits.
+                        </li>
+                    </ul>
+                    <p class="text-white mt-4">
+                        These projects have significantly improved the efficiency and
+                        effectiveness of LorisGifts' backend operations.
+                    </p>
+                </div>
+                <!-- Add other projects here -->
+
+                <!-- ServiceNow Project Experience -->
+                <div class="bg-gradient-to-b from-green-400 to-blue-500 rounded-lg p-6 shadow-lg">
+                    <h3 class="text-xl font-bold mb-4 text-white">
+                        My ServiceNow Development Experience
+                    </h3>
+                    <p class="text-lg text-white">
+                        I am an experienced professional with expertise in ServiceNow
+                        development, specializing in customer service management (CSM), IT
+                        service management (ITSM), HR service delivery (HRSD), and service
+                        portal development. I am passionate about leveraging technology to
+                        streamline processes, enhance customer experiences, and drive
+                        organizational efficiency.
+                    </p>
+                    <p class="text-lg text-white mt-4">
+                        I have extensive experience with various ServiceNow modules,
+                        including Incident management, Change management, Problem
+                        Management, Integrations, and Notifications. I am skilled in LDAP
+                        and Single Sign-On (SSO) integration, SAM-related integrations,
+                        and inbound email actions. I possess strong capabilities in
+                        creating and implementing Business Rules, Script Includes, Client
+                        Scripts, UI Policies, UI Actions, and Notifications.
+                    </p>
+                </div>
+
+                <div class="bg-blue-500 rounded-lg p-6 shadow-lg">
+                    <h3 class="text-xl font-bold mb-4 text-white">Key Achievements</h3>
+                    <ul class="text-white list-disc pl-6">
+                        <li>
+                            Implemented Incident management process improvements resulting
+                            in a 20% reduction in response time.
+                        </li>
+                        <li>
+                            Developed a Service Catalog with ITIL best practices, leading to
+                            better service request management.
+                        </li>
+                        <li>
+                            Enhanced Performance Analytics dashboards to provide real-time
+                            insights into service performance.
+                        </li>
+                    </ul>
+                    <h3 class="text-xl font-bold mt-6 mb-4 text-white">
+                        Technical Skills
+                    </h3>
+                    <ul class="text-white list-disc pl-6">
+                        <li>LDAP and Single Sign-On (SSO) integration</li>
+                        <li>
+                            Creating and implementing Business Rules, Script Includes,
+                            Client Scripts, UI Policies, UI Actions, and Notifications
+                        </li>
+                        <li>
+                            Service Catalog, Record Producer, and Service Portal development
+                        </li>
+                        <li>
+                            ServiceNow modules: Incident management, Change management,
+                            Problem Management, Integrations, and Notifications
+                        </li>
+                        <li>Scripting custom pages and widgets</li>
+                        <li>ServiceNow Workflow and Flow Designer</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="py-16 bg-gray-100">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold mb-8">Skills</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 text-lg text-gray-700">
+                <div class="bg-white rounded-lg shadow-md p-4">
+                    <h3 class="text-xl font-bold mb-4">ServiceNow</h3>
+                    <ul class="list-disc pl-4">
+                        <li>HRSD</li>
+                        <li>CSM</li>
+                        <li>Service Catalog</li>
+                        <li>IT Service Catalog</li>
+                        <li>Performance Analytics</li>
+                        <li>ServiceNow Workflow</li>
+                        <li>Flow Designer</li>
+                        <li>Service Portal Development</li>
+                        <li>AngularJS</li>
+                        <li>CMDB</li>
+                    </ul>
+                </div>
+                <div class="bg-white rounded-lg shadow-md p-4">
+                    <h3 class="text-xl font-bold mb-4">Web Development</h3>
+                    <ul class="list-disc pl-4">
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                        <li>AJAX</li>
+                        <li>JSON</li>
+                        <li>Document Object Model (DOM)</li>
+                        <li>Server Side</li>
+                        <li>React JS</li>
+                        <li>PHP Development</li>
+                        <li>CodeIgniter</li>
+                        <li>Laravel Framework</li>
+                        <li>Microsoft SQL Server</li>
+                    </ul>
+                </div>
+                <div class="bg-white rounded-lg shadow-md p-4">
+                    <h3 class="text-xl font-bold mb-4">IT Service Management</h3>
+                    <ul class="list-disc pl-4">
+                        <li>IT Service Management</li>
+                        <li>ITOM</li>
+                        <li>Service Portal</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Awards Section -->
+    <!-- Awards Section -->
+    <section id="awards" class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold mb-8">Awards</h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
+                <div class="bg-yellow-100 border-4 border-yellow-400 rounded-lg p-6 transform hover:scale-105 transition-all duration-300">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12 text-yellow-400 mx-auto mb-4"
+                        viewBox="0 0 20 20" fill="currentColor">
+                        <path
+                            d="M10 0a10 10 0 1010 10A10 10 0 0010 0zm0 18a8 8 0 118-8 8.009 8.009 0 01-8 8zm0-4a1 1 0 100-2 1 1 0 000 2zm1-6a1 1 0 00-2 0v4a1 1 0 002 0z" />
+                    </svg>
+                    <p class="text-lg text-gray-700 font-bold">
+                        Sky Waller Award
+                    </p>
+                    <p class="text-lg text-gray-700">
+                        For Good performance and dedication at Zuci Systems.
+                    </p>
+                </div>
+                <div class="bg-blue-100 border-4 border-blue-400 rounded-lg p-6 transform hover:scale-105 transition-all duration-300">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12 text-blue-400 mx-auto mb-4"
+                        viewBox="0 0 20 20" fill="currentColor">
+                        <path
+                            d="M10 0a10 10 0 1010 10A10 10 0 0010 0zm0 18a8 8 0 118-8 8.009 8.009 0 01-8 8zm0-4a1 1 0 100-2 1 1 0 000 2zm1-6a1 1 0 00-2 0v4a1 1 0 002 0z" />
+                    </svg>
+                    <p class="text-lg text-gray-700 font-bold">
+                        Excellence Award
+                    </p>
+                    <p class="text-lg text-gray-700">
+                        For Good contributions to ServiceNow Development.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+        <!-- Contact Section -->
+        <section id="contact" class="py-16 bg-blue-600 text-white">
+            <div class="container mx-auto px-4">
+                <h2 class="text-3xl font-bold mb-8">Contact Me</h2>
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-8">
+                    <div class="text-lg">
+                        <p>If you have any inquiries or would like to discuss a project, feel free to get in touch.</p>
+                        <p class="mt-4">Phone: +91 9626982579, 8838653313</p>
+                        <p>Email: srinisaran20@gmail.com, srinivasanservicenow@gmail.com, srinivasanlearning@gmail.com</p>
+                        <div class="flex space-x-4 mt-8">
+                            <a href="tel:+919626982579"
+                                class="px-4 py-2 bg-white text-blue-600 font-semibold rounded-md hover:bg-blue-600 hover:text-white transition-all duration-200">Call
+                                Now</a>
+                            <a href="mailto:srinisaran20@gmail.com"
+                                class="px-4 py-2 bg-white text-blue-600 font-semibold rounded-md hover:bg-blue-600 hover:text-white transition-all duration-200">Email
+                                Me</a>
+                            <a href="https://wa.me/919696982579"
+                                class="px-4 py-2 bg-white text-blue-600 font-semibold rounded-md hover:bg-blue-600 hover:text-white transition-all duration-200">WhatsApp
+                                Me</a>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
+       <!-- WhatsApp Contact Button -->
+    <div class="fixed bottom-8 right-8">
+        <a href="https://wa.me/919626982579" target="_blank"
+            class="text-white text-xl bg-green-500 rounded-full p-3 shadow-lg hover:bg-green-600 transition-all duration-200">
+            <i class="fab fa-whatsapp"></i>
+        </a>
+    </div>
+
+    <!-- Footer Section -->
+    <footer class="bg-blue-600 text-white py-4">
+        <p class="text-center">
+            &copy; 2023 Srinivasan Govindasamy. All rights reserved.
+        </p>
+    </footer>
+
+    <!-- Add any JavaScript scripts if needed -->
+
+
+
+
+
+    <script>
+        function toggleMenu() {
+            var mobileMenu = document.getElementById('mobileMenu');
+            if (mobileMenu.style.display === 'block') {
+                mobileMenu.style.display = 'none';
+            } else {
+                mobileMenu.style.display = 'block';
+            }
+        }
+    </script>
+</body>
+
+</html>
